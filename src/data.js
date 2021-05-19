@@ -3,47 +3,112 @@ import { v4 as uuidv4 } from "uuid";
 function music() {
     return [
         {
-            name : "Stacy",
-            cover : "https://images.genius.com/353670ca2f209fa9670dd08cf4f06151.1000x1000x1.jpg",
-            artist : "Quinn XCII",
-            audio : "https://media.hungama.com/c/4/d7f/894/49025100/49025100_128.mp3?rgQ9Y4o6zqUZyRBDCFA1W4BfEEsyhBqI19SdtGBqc4ciKsRQpmIDeeUvK4I1leK9KZHbgFEwSFmHFnVuEkb_0Pfvb2dYCrA-1nAglS_YD7jIvr3o1-WetGVlopEkqo-urNSlCA",
-            color : ["#63690E","#E9E8ED"],
-            id : uuidv4(),
-            active : false
-        },
-        {
-            name : "Twenty One",
-            cover : "https://images.hungama.com/c/1/a5d/5c6/47560946/47560946_300x300.jpg",
-            artist : "Khalid",
-            audio : "https://media.hungama.com/c/4/644/bf6/47561020/47561020_128.mp3?iGUvoJ3y9xZDReyhsH6ZJLlYN7jKbDR6sdJzPVp2zdIAJOQnRHXL93XmcNVvq6jZUQ92KyCMNVt9TYGkRjyh3Gf8NjokX-mKnRBfLub6FEuDBCSfZ3gbdIZcJ1kCVPhW8aJPtw",
-            color : ["#956222","#85B3CE"],
-            id : uuidv4(),
-            active : false
-        },
-        {
-            name : "Free Spirit",
-            cover : "https://images.hungama.com/c/1/a5d/5c6/47560946/47560946_300x300.jpg",
-            artist : "Khalid",
-            audio : "https://media.hungama.com/c/4/5f2/ab6/47561018/47561018_128.mp3?Gz3m9I5ZocmZhmMVnB1_Q7VKe6ToDlF2McWRAHzBWg27TSoI6yMbF_g5-dWbiVpBG_mivuNuJeCro_h7TSOoURlTmGP0pMrm8OBU5wAlBH9b25-ozMZHX-1xEQZzxPDDQLbqyA",
-            color : ["#956222","#85B3CE"],
-            id : uuidv4(),
-            active : false
-        },
-        {
-            name : "Saturday Night",
-            cover : "https://images.hungama.com/c/1/a5d/5c6/47560946/47560946_300x300.jpg",
-            artist : "Khalid",
-            audio : "https://media.hungama.com/c/4/db1/198/47561033/47561033_128.mp3?Q5rkR0NiR5cwl--yau-m3tmxodmOzG7QB8PXQcC16UYsavOSfVK_52ybQMXdg4F03vgwNPKeiWm7R5ctqYF_QAR15poN2IBJaq3gNLhd24BeSo9HYaOk-VFA4FMr8K5AIXVNyA",
-            color : ["#956222","#85B3CE"],
-            id : uuidv4(),
-            active : false
-        },
-        {
             name : " Vintage",
             cover : "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
             artist : "Evil Needle",
             audio : "https://mp3.chillhop.com/serve.php/?mp3=17088",
             color : ["#E5AF4D","#A19082"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : " By Chance",
+            cover : "https://chillhop.com/wp-content/uploads/2021/03/74d62bc9370a68e440c1b98eaf650344f0a7faea-1024x1024.jpg",
+            artist : "SwuM",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=15224",
+            color : ["#2C3836","#4B3B29"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : " Lost Soul",
+            cover : "https://chillhop.com/wp-content/uploads/2021/02/d12927eedcc2f5afba2ab049a4a1ea46c2266ae3-1024x1024.jpg",
+            artist : "C Y G N",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=14989",
+            color : ["#DC8BDA","#C1E0F5"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Lax Incense",
+            cover : "https://chillhop.com/wp-content/uploads/2021/01/6b1bb8736ee3e972747bc11f312e31cf7f5823e4-1024x1024.jpg",
+            artist : "Mama Aiuto",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=12125",
+            color : ["#66383B","#6A921E"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Playful Obsession",
+            cover : "https://chillhop.com/wp-content/uploads/2021/02/d12927eedcc2f5afba2ab049a4a1ea46c2266ae3-1024x1024.jpg",
+            artist : "C Y G N",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=14983",
+            color : ["#DC8BDA","#C1E0F5"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Barrows",
+            cover : "https://chillhop.com/wp-content/uploads/2021/02/7f102bdde417f6ead9a120b2b931449e5c12b4da-1024x1024.jpg",
+            artist : "Aarigod",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=13003",
+            color : ["#99B56A","#343F40"],
+            id : uuidv4(),
+            active : false
+        },
+        
+        {
+            name : "Today Feels Like Everyday",
+            cover : "https://chillhop.com/wp-content/uploads/2021/01/6b1bb8736ee3e972747bc11f312e31cf7f5823e4-1024x1024.jpg",
+            artist : "Mama Aiuto",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=12128",
+            color : ["#66383B","#6A921E"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Cruisin'",
+            cover : "https://chillhop.com/wp-content/uploads/2020/07/8404541e3b694d16fd79433b142ed910f36764dd-300x300.jpg",
+            artist : "Cloudchord, G Mills",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=8200",
+            color : ["#FF194A","#41B3B3"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Small Town Palm Tree",
+            cover : "https://chillhop.com/wp-content/uploads/2021/01/6b1bb8736ee3e972747bc11f312e31cf7f5823e4-1024x1024.jpg",
+            artist : "Mama Aiuto",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=12124",
+            color : ["#66383B","#6A921E"],
+            id : uuidv4(),
+            active : false
+        },
+        
+        {
+            name : "Bliss",
+            cover : "https://chillhop.com/wp-content/uploads/2020/09/5bff1a6f1bd0e2168d29b4c841b811598135e457-300x300.jpg",
+            artist : "Misha, Jussi Helma",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=9248",
+            color : ["#F494A0","#122742"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Sunday Morning",
+            cover : "https://chillhop.com/wp-content/uploads/2020/09/09fb436604242df99f84b9f359acb046e40d2e9e-300x300.jpg",
+            artist : "Nymano",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=10139",
+            color : ["#936A8D","#E3A7AB"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Serendipity",
+            cover : "https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-1024x1024.jpg",
+            artist : "Philanthrope, The Field Tapes",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=10249",
+            color : ["#C57860","#DF7146"],
             id : uuidv4(),
             active : false
         },
