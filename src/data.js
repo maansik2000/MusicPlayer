@@ -84,6 +84,24 @@ function music() {
             id : uuidv4(),
             active : false
         },
+        {
+            name : "Something Warm",
+            cover : "https://chillhop.com/wp-content/uploads/2020/07/9ba130514bcb5697e8a9be6a93fa2c8fc88223d0-1024x1024.jpg",
+            artist : "No Spirit",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=8133",
+            color : ["#C3ADB9","#8C5A63"],
+            id : uuidv4(),
+            active : false
+        },
+        {
+            name : "Slightly Improvised",
+            cover : "https://chillhop.com/wp-content/uploads/2020/07/9ba130514bcb5697e8a9be6a93fa2c8fc88223d0-1024x1024.jpg",
+            artist : "No Spirit",
+            audio : "https://mp3.chillhop.com/serve.php/?mp3=9038",
+            color : ["#C3ADB9","#8C5A63"],
+            id : uuidv4(),
+            active : false
+        },
         
         {
             name : "Bliss",
